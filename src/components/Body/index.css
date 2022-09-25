@@ -25,6 +25,7 @@
   .bg-paragraph {
     font-size: 18px;
     margin-bottom: 40px;
+    color: black;
   }
   .desktop-brochure-buttons {
     display: flex;
@@ -149,6 +150,7 @@
   .bg-paragraph {
     font-size: 22px;
     margin-bottom: 40px;
+    color: black;
   }
   .desktop-brochure-buttons {
     display: none;
@@ -209,6 +211,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    color: black;
   }
   .levels-container {
     display: flex;
@@ -348,6 +351,7 @@
   text-align: center;
   font-weight: bold;
   margin-bottom: 8px;
+  color: black;
 }
 .acca-heading-down {
   width: 120px;
@@ -364,6 +368,7 @@
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: 300;
+  color: black;
 }
 
 .levels {
@@ -375,12 +380,14 @@
   flex-direction: column;
   margin-right: 15px;
   align-items: center;
+  color: black;
 }
 .levels-heading {
   margin: 0px;
   padding-top: 15px;
   font-size: 27px;
   font-weight: 500;
+  color: black;
 }
 .levels-description {
   display: flex;
@@ -389,6 +396,9 @@
   justify-content: center;
   font-size: 18px;
   font-weight: 500;
+}
+.levels-paragraph {
+  color: black;
 }
 .levels-icon {
   margin-right: 5px;
@@ -413,6 +423,7 @@
   font-size: 42px;
   text-align: center;
   font-weight: bold;
+  color: black;
 }
 
 .acca-syllabus-top {
@@ -452,6 +463,7 @@
 }
 .acca-syllabus-description {
   margin: 8px;
+  color: black;
 }
 .live-class {
   display: flex;
@@ -460,6 +472,7 @@
 }
 .live-description {
   font-size: 25px;
+  color: black;
 }
 .acca-tag {
   color: blue;
@@ -486,6 +499,7 @@
   font-weight: bold;
   margin-top: 40px;
   margin-bottom: 10px;
+  color: black;
 }
 .eligibility-acca-heading {
   color: #32127a;
@@ -532,6 +546,7 @@
 }
 .rank-description {
   margin: 0px;
+  color: black;
 }
 .rank-down-container {
   display: flex;
@@ -562,6 +577,7 @@
 .rank-down-heading {
   font-size: 20px;
   padding-left: 20px;
+  color: black;
 }
 .enroll-button3 {
   display: flex;
@@ -594,7 +610,9 @@
   font-size: 30px;
   font-weight: 500;
   margin: 0px;
+  color: black;
 }
 .placement-desc {
   font-size: 18px;
+  color: black;
 }

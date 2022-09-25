@@ -122,14 +122,14 @@ class Body extends Component {
               <h1 className="levels-heading">Levels</h1>
               <div className="levels-description">
                 <MdOutlineMenuBook className="levels-icon" />
-                <p>Three (13 papers)</p>
+                <p className="levels-paragraph">Three (13 papers)</p>
               </div>
             </div>
             <div className="levels">
               <h1 className="levels-heading">Duration</h1>
               <div className="levels-description">
                 <AlarmOnIcon className="levels-icon" />
-                <p>6-30 months</p>
+                <p className="levels-paragraph">6-30 months</p>
               </div>
             </div>
           </div>
@@ -138,14 +138,14 @@ class Body extends Component {
               <h1 className="levels-heading">Exams</h1>
               <div className="levels-description">
                 <LaptopIcon className="levels-icon" />
-                <p>Quarterly (Online)</p>
+                <p className="levels-paragraph">Quarterly (Online)</p>
               </div>
             </div>
             <div className="levels">
               <h1 className="levels-heading">Exemptions</h1>
               <div className="levels-description">
                 <EventAvailableIcon className="levels-icon" />
-                <p>Available</p>
+                <p className="levels-paragraph">Available</p>
               </div>
             </div>
           </div>
