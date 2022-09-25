@@ -1,0 +1,600 @@
+@media screen and (min-width: 976px) {
+  .bg-container {
+    padding-bottom: 0px;
+  }
+  .register-container {
+    background-color: #f1f8fe;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    height: 350px;
+  }
+  .reg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 80px;
+  }
+  .bg-heading {
+    color: black;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .bg-paragraph {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .desktop-brochure-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: row;
+  }
+  .top-image {
+    display: none;
+  }
+  .request-form-outside {
+    width: 410px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    background-color: #ffffff;
+    flex-flow: column;
+    border-top: 2px solid #32127a;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+      0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+    margin-right: 300px;
+  }
+  .mobile-brochure-buttons {
+    display: none;
+  }
+  .acca-description {
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2edff;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+      0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+    height: 200px;
+  }
+  .acca-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .levels-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+  }
+  .levels-container1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .levels-container2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .acca-syllabus-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: center;
+  }
+  .acca-syllabus {
+    width: 350px;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: center;
+    background-color: #f1f8fe;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+      0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+  }
+  .acca-image-syllabus {
+    width: 180px;
+    height: 55px;
+  }
+  .eligibility-description-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 330px;
+  }
+  .rank-containers {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+  .rank-container {
+    width: 350px;
+    display: flex;
+    flex-flow: column;
+    max-height: 100%;
+    min-height: 100%;
+    margin-right: 10px;
+    border-radius: 7px;
+    background-color: #f1f8fe;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+      0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .bg-container {
+    padding-bottom: 220px;
+  }
+  .register-container {
+    background-color: #f1f8fe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .bg-heading {
+    color: black;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .bg-paragraph {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+  .desktop-brochure-buttons {
+    display: none;
+  }
+  .top-image-container {
+    margin-bottom: 15px;
+  }
+  .request-form-outside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    background-color: #ffffff;
+    flex-flow: column;
+    border-top: 2px solid #32127a;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+      0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  }
+  .mobile-brochure-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-brochure {
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    width: 470px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 25px;
+  }
+  .mobile-acca-image {
+    width: 200px;
+    height: 70px;
+  }
+  .acca-description {
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2edff;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+      0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+    height: 200px;
+  }
+  .acca-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .levels-container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .levels-container1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .levels-container2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .levels {
+    margin-bottom: 10px;
+  }
+  .acca-syllabus-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .acca-syllabus {
+    width: 350px;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: center;
+    background-color: #f1f8fe;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+      0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .acca-image-syllabus {
+    width: 250px;
+    height: 60px;
+  }
+  .eligibility-description-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+  }
+  .rank-containers {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  .rank-container {
+    width: 350px;
+    display: flex;
+    flex-flow: column;
+    max-height: 100%;
+    min-height: 100%;
+    margin-right: 10px;
+    border-radius: 7px;
+    background-color: #f1f8fe;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+      0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    margin-bottom: 10px;
+  }
+}
+
+.button {
+  background-color: #32127a;
+  color: #ffffff;
+}
+.brochure {
+  font-size: 18px;
+  font-weight: 400;
+  height: 40px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.acca-image {
+  width: 150px;
+  height: 45px;
+}
+
+.request-form-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.request-paragraph {
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  font-weight: 500;
+}
+.input {
+  width: 360px;
+  height: 40px;
+  border-radius: 2px;
+  border: 1px solid rgb(170, 168, 168);
+  color: #e6e6e6;
+  font-size: 15px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+.request {
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+}
+.side-buttons-top {
+  opacity: 0;
+  visibility: hidden;
+  top: 55%;
+  right: -200px;
+  display: flex;
+  z-index: 10000;
+  position: fixed;
+  flex-flow: row;
+  transform: rotate(270deg);
+}
+
+.acca-container {
+  max-width: 100%;
+  padding: 40px;
+}
+.acca-heading-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+.acca-heading {
+  font-size: 42px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.acca-heading-down {
+  width: 120px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: #32127a;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.description-acca {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.levels {
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  width: 300px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  align-items: center;
+}
+.levels-heading {
+  margin: 0px;
+  padding-top: 15px;
+  font-size: 27px;
+  font-weight: 500;
+}
+.levels-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.levels-icon {
+  margin-right: 5px;
+}
+.why-acca-container {
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.why-acca-heading-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.why-acca-heading {
+  font-size: 42px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.acca-syllabus-top {
+  color: #fff;
+  height: 130px;
+  display: flex;
+  padding: 0px 8px;
+  align-items: center;
+  border-radius: 4px 4px 0px 0px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #32127a;
+  box-sizing: border-box;
+}
+.conceptual-heading {
+  color: #fff;
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.acca-syllabus-description-container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+}
+.acca-syllabus-descriptions {
+  display: flex;
+  align-items: center;
+}
+.acca-syllabus-down {
+  text-align: left;
+}
+.acca-syllabus-description {
+  margin: 8px;
+}
+.live-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.live-description {
+  font-size: 25px;
+}
+.acca-tag {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+.acca-image-syllabus {
+  width: 180px;
+  height: 55px;
+}
+.acca-eligibility-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+  background-color: #f2edff;
+}
+.eligibility-description-heading {
+  margin-bottom: 15px;
+}
+.acca-eligibility-heading {
+  font-size: 42px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.eligibility-acca-heading {
+  color: #32127a;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.eligibility-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.acca-learn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.acca-eligibility-down {
+  width: 120px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: #32127a;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.rank-top-container {
+  color: #fff;
+  display: flex;
+  padding: 20px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  background-color: #32127a;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.rank-heading {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.rank-description {
+  margin: 0px;
+}
+.rank-down-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+}
+.rank-down-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.enroll-button1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.enroll {
+  border-radius: 4px;
+  width: 90px;
+  height: 35px;
+}
+.enroll-button2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 115px;
+}
+.rank-down-heading {
+  font-size: 20px;
+  padding-left: 20px;
+}
+.enroll-button3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.placement-container {
+  background-color: #f2edff;
+  margin-top: 50px;
+}
+.why-acca-heading-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+}
+
+.placement-description-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 90px;
+}
+.placement-description {
+  display: flex;
+  flex-direction: column;
+}
+.placement-heading {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0px;
+}
+.placement-desc {
+  font-size: 18px;
+}
